@@ -1,0 +1,15 @@
+.app-container {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 800px) {
+  .app-container {
+    flex-direction: column-reverse;
+  }
+}
+.app-content-item {
+  min-width: 370px;
+  margin: 10px;
+}
